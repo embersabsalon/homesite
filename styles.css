@@ -8,17 +8,17 @@
 */
 
 #mainBlock {
-    margin: 10% 10% 10% 20%;
+    margin: 10% 20% 10% 10%;
 }
 
-.blockTitle {
-    color: #086788;
+.textBlock {
+    color: #575D90;
     text-align: center;
-    margin: 7% 10% 20% 42%;
+    margin: 7% 42% 20% 10%;
 }
 
 .bannerLines {
-    border: 5px solid #086788;
+    border: 5px solid #575D90;
     border-radius: 2px;
     margin-top: -1em;
     margin-bottom: -1em;
@@ -26,5 +26,10 @@
 
 .selfImage {
     margin-top: -4em;
-    float: left;
+    float: right;
+}
+
+.bodyText {
+    color: #C3423F;
+    padding-top: 10px;
 }
