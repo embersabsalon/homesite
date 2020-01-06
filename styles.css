@@ -5,31 +5,33 @@
     #575D90 - Purple 1
     #8BB174 - Green 1
     #C3423F - Red 1
+    #B4C5E4 - Gray 1
+    #645986 - Purple 2
 */
 
 #main-block {
     font-family: 'Montserrat', sans-serif;
+    margin: 0; height: 100%; overflow: hidden
 }
 
 .text-block {
-    color: #8BB174;
-    text-align: center;
+    color: #2D373F;
 }
 
 .banner-lines {
-    border: 5px solid #575D90;
+    border: 5px solid #2D373F;
     border-radius: 2px;
     margin-top: -1em;
     margin-bottom: -1em;
 }
 
 .body-text {
-    color: #C3423F;
+    /*color: #EEF4FA;*/
+    color: #2D373F;
     padding-top: 10px;
 }
 
 .socials-icons {
-    color: gray;
     padding-top: 10px;
     font-size: 25px;
 }
@@ -48,23 +50,29 @@
 /* Control the left side */
 .left {
     left: 0;
-    background-color: #111;
+    /*background-color: #2D373F;*/
 }
 
 /* Control the right side */
 .right {
     right: 0;
+    background-color: #EEF4FA;
+    background: url("BW2.jpg");
 }
 
 /* If you want the content centered horizontally and vertically */
 .centered {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 39%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 /* Style the image inside the centered container, if needed */
-.centered img {
+.centered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
