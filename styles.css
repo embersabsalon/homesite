@@ -1,0 +1,21 @@
+/*
+    Color Theme:
+    #2978A0 - Blue 1
+    #086788 - Blue 2
+    #575D90 - Purple 1
+    #8BB174 - Green 1
+    #C3423F - Red 1
+*/
+
+.blockTitle {
+    color: #086788;
+    text-align: center;
+    margin: 7% 10% 20% 40%;
+}
+
+.bannerLines {
+    border: 5px solid #086788;
+    border-radius: 2px;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
