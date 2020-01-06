@@ -9,12 +9,6 @@
 
 #main-block {
     font-family: 'Montserrat', sans-serif;
-    margin: 10% 20% 10% 10%;
-}
-
-.column {
-    float: left;
-    width: 50%;
 }
 
 .text-block {
@@ -29,11 +23,6 @@
     margin-bottom: -1em;
 }
 
-.self-image {
-    margin-top: -3em;
-    float: right;
-}
-
 .body-text {
     color: #C3423F;
     padding-top: 10px;
@@ -43,4 +32,39 @@
     color: gray;
     padding-top: 10px;
     font-size: 25px;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: #111;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
 }
